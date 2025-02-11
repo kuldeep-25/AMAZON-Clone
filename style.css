@@ -6,6 +6,9 @@
 #navbar{
     height: 60px;
     background-color: #0f1111;
+    position: fixed;
+    top: 0px;
+    width: 100%;
 }
 
 button{
@@ -37,10 +40,15 @@ input{
 
 #content{
     height: 680px;
+    position: relative;
+    top: 60px;
 }
 
 footer {
     background-color: #0f1111;
     color: white;
     text-align: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
 }
